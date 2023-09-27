@@ -28,3 +28,11 @@ section {
 section h2 {
     min-width: 33.33%;
 }
+
+#contact-me {
+    justify-content: space-between;
+}
+
+#contact-list li {
+    display: inline;
+}
