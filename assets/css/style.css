@@ -19,3 +19,12 @@ nav ul li {
     right: 20px;
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+section h2 {
+    min-width: 33.33%;
+}
