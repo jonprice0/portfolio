@@ -6,16 +6,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--dark);
 }
 
 header h1 {
+    font-size: 52px;
     color: var(--dark);
     background-color: var(--light);
-    padding: 30px 30px 30px 90px;
+    padding: 20px 20px 20px 90px;
 }
 
 a {
@@ -23,8 +26,15 @@ a {
     color: var(--light);
 }
 
+nav {
+    margin-right: 40px;
+}
+
 nav ul li {
-    padding: 30px;
+    font-size: 24px;
+    border-bottom: solid 4px var(--light);
+    padding: 20px 10px 3px 10px;
+    margin-left: 16px;
     display: inline;
 }
 
