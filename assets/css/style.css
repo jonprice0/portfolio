@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: var(--dark);
+    height: 130px;
 }
 
 header h1 {
@@ -31,7 +32,7 @@ nav {
 }
 
 nav ul li {
-    font-size: 24px;
+    font-size: 20px;
     border-bottom: solid 4px var(--light);
     padding: 20px 10px 3px 10px;
     margin-left: 16px;
@@ -39,15 +40,19 @@ nav ul li {
 }
 
 #hero {
-    height: 200px;
+    height: 280px;
     background-image: url("../images/moroccan-flower-dark.png");
     position: relative;
 }
 
 #hero h3 {
+    font-size: 24px;
+    color: var(--dark);
+    background-color: var(--light);
+    padding: 12px;
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px;
+    right: 40px;
 }
 
 section {
