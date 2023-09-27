@@ -40,7 +40,7 @@ nav ul li {
 }
 
 #hero {
-    height: 280px;
+    height: 360px;
     background-image: url("../images/moroccan-flower-dark.png");
     position: relative;
 }
@@ -51,8 +51,8 @@ nav ul li {
     background-color: var(--light);
     padding: 12px;
     position: absolute;
-    bottom: 10px;
-    right: 40px;
+    bottom: 20px;
+    right: 50px;
 }
 
 section {
@@ -62,12 +62,27 @@ section {
 }
 
 section h2 {
-    min-width: 33.33%;
+    color: var(--dark);
+    margin-right: 18px;
+    margin-top: 18px;
+    min-width: 25%;
+    border-right: solid 4px var(--dark);
+    text-align: right;
+    padding-top: 0px;
+    padding-right: 20px;
+    font-size: 38px;
 }
 
 .project {
     background-image: url("../images/moroccan-flower-dark.png");
     height: 300px;
+}
+
+#about-me p {
+    color: var(--dark);
+    font-size: 18px;
+    margin-top: 18px;
+    margin-right: 90px;
 }
 
 #contact-me {
