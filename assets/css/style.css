@@ -73,9 +73,34 @@ section h2 {
     font-size: 38px;
 }
 
+#projects-container {
+    width: 70%;
+    margin: auto;
+}
+
 .project {
+    position: relative;
     background-image: url("../images/moroccan-flower-dark.png");
     height: 300px;
+    margin: 20px;
+}
+
+.project-text h4 {
+    font-size: 24px;
+    color: var(--dark);
+    background-color: var(--light);
+    padding: 12px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+
+.project-text p {
+    font-size: 14px;
+    color: var(--dark);
+    background-color: var(--light);
+    padding: 12px;
+    display: inline-block;
 }
 
 #about-me p {
