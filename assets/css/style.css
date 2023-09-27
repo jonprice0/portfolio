@@ -22,7 +22,7 @@ header h1 {
     padding: 20px 20px 20px 90px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: var(--light);
 }
@@ -114,6 +114,20 @@ section h2 {
     justify-content: space-between;
 }
 
+#contact-list a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+#contact-me ul {
+    margin-right: 40px;
+}
+
 #contact-list li {
+    color: var(--dark);
     display: inline;
+    font-size: 20px;
+    border-bottom: solid 4px var(--dark);
+    padding: 20px 10px 3px 10px;
+    margin-left: 16px;
 }
