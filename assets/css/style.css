@@ -29,6 +29,11 @@ section h2 {
     min-width: 33.33%;
 }
 
+.project {
+    background-image: url("../images/moroccan-flower-dark.png");
+    height: 300px;
+}
+
 #contact-me {
     justify-content: space-between;
 }
